@@ -1,0 +1,249 @@
+.small-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #3a3a3a;
+}
+.big-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+.profile-text-name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #3a3a3a;
+}
+.profile-text-username {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #3a3a3a;
+}
+.profile-card-visitor {
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(22, 22, 22, 0.3);
+  border-radius: 5px 5px 0 0;
+  padding: 20px 0;
+}
+.cover-photo-V {
+  background-image: url("../img/coverphoto.png");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.username {
+  top: 0px;
+  background: #fff;
+  position: sticky;
+  z-index: 1;
+  padding: 2px 19px;
+}
+
+.tab-navbar {
+  top: 32px;
+  background: #ffffff;
+  position: sticky;
+  width: 100%;
+}
+.profilecontainer {
+  position: absolute;
+  bottom: -90px;
+  right: 40%;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 6px solid white;
+  background: #000;
+}
+@media only screen and (max-width: 700px) {
+.profilecontainer {
+    position: absolute;
+    bottom: -90px;
+    right: 190px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 6px solid white;
+    background: #000;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .profilecontainer {
+    position: absolute;
+    bottom: -80px;
+    right: 34%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 6px solid white;
+    background: #000;
+  }
+    .cover-photo-V {
+      background-image: url("../img/coverphoto.png");
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+  }
+
+
+.border-line {
+  border-right: 2px solid #d7d7d7;
+  height: 45px;
+  transform: rotate(0deg);
+}
+.bg{
+  margin-left: 20px;
+  background: #000;
+}
+.profile-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: center;
+
+  color: #3a3a3a;
+}
+
+.profile-items {
+  line-height: 29px;
+  font-family: "Open Sans";
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 21.3949px;
+  color: #3a3a3a;
+  margin: auto;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.profile-items.active::before {
+  content: "";
+  width: 120px;
+  height: 2em;
+  position: absolute;
+  bottom: 10px;
+  left: -40px;
+  /* background: rgb(201, 10, 10); */
+  border-bottom: 3.11795px solid #2c199f;
+}
+
+.profile-items:last-child.active::before {
+  content: "";
+  width: 100px;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  left: 65px;
+  border-bottom: 3.11795px solid #2c199f;
+}
+
+.detach-toghts-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 12px;
+  color: #b7b7b7;
+}
+<<<<<<< HEAD
+=======
+.go-live-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ff2b2b;
+  margin-left: 12px;
+}
+.toghts-container {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(22, 22, 22, 0.3);
+  border-radius: 5px;
+  height: 100%;
+  padding: 31px 10px;
+  overflow: scroll;
+}
+.toght-section {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  background: #5b3896;
+  border-radius: 10px;
+  margin-right: 12px;
+  width: 100%;
+}
+.toght-section:last-child {
+  margin-right: 0;
+}
+.toght-section-wrapper {
+  overflow: scroll;
+  width: 100%;
+  padding: 0;
+}
+.toght-search-container {
+  
+}
+.toght-category {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3a3a3a;
+  background: #ffffff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.toght-category.search {
+  font-size: 14px !important;
+  margin-right: 15px !important;
+}
+.toght-category:last-child {
+  margin-right: 0;
+}
+.toght-category.low {
+  border: 0.5px solid #4ecb71;
+}
+.toght-category.low:hover {
+  background: #4ecb71;
+  color: white;
+}
+.toght-category.medium {
+  border: 0.5px solid #ffd233;
+}
+.toght-category.medium:hover {
+  background: #ffd233;
+  color: white;
+}
+.toght-category.high {
+  border: 0.5px solid #4ecb71;
+}
+.toght-category.high:hover {
+  background: #4ecb71;
+  color: white;
+}
+>>>>>>> master
+
+.purple{
+  background: purple;
+  color: wheat;
+  outline: none;
+}

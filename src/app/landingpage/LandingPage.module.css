@@ -1,0 +1,28 @@
+
+
+.con {
+  min-height: 100vh;
+padding: 0;
+  margin: 0;
+ }
+.smallcontainer{
+  display: none;
+}
+
+/* mobile screens */
+@media only screen and (max-width: 1000px) {
+  /*Big smartphones [426px -> 600px]*/
+.con {
+    min-height: 100vh;
+    /* position: relative; */
+    background: var(--primary-bg-small);
+  }
+    /* .bigscreen{
+      display: none;
+    } */
+        .smallcontainer {
+          display: block;
+          background: #5B3896;
+        }
+}
+

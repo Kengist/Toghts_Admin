@@ -1,0 +1,104 @@
+.notification-nav-item {
+  font-weight: 600;
+  font-size: 24.9436px;
+  color: #3a3a3a;
+  margin: auto;
+  position: relative;
+}
+.notification-nav-item.active::before {
+  content: "";
+  width: 120px;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  border-bottom: 3.11795px solid #2c199f;
+}
+.notifications-container {
+  padding: 30px 40px;
+}
+.notification-nav-item:last-child.active::before {
+  content: "";
+  width: 100px;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  left: -22px;
+  border-bottom: 3.11795px solid #2c199f;
+}
+.notification-wrapper {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.notification-wrapper.unread {
+  background-color: #eff6ff;
+  padding: 20px;
+}
+.notification-text {
+  font-weight: 400;
+  font-size: 18.7077px;
+  line-height: 25px;
+  margin-bottom: 0;
+  color: #3a3a3a;
+  margin-left: 35px !important;
+}
+.commenter {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.55897px solid rgba(58, 58, 58, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+@media (max-width: 1300px) {
+  .notification-wrapper {
+    /* padding: 20px; */
+  }
+  .notification-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 969px) {
+  .notification-wrapper {
+    margin-bottom: 20px;
+  }
+  .notifications-icon-mobile {
+    width: 18px !important;
+    height: 18px !important;
+
+    /* padding: 20px; */
+  }
+  .notification-text {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 30px !important;
+  }
+  .notification-nav-item {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .notification-wrapper.unread {
+    background-color: unset;
+    padding: unset;
+  }
+
+  .notification-nav-item.active::before {
+    left: -35px;
+    width: 90px;
+  }
+  .notification-nav-item:last-child.active::before {
+    content: "";
+    width: 80px;
+    height: 2em;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    border-bottom: 3.11795px solid #2c199f;
+  }
+}

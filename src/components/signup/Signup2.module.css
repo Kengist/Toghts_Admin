@@ -1,0 +1,87 @@
+/* Style the input container */
+.inputcontainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+/* Style the form icons */
+.icon {
+  position: absolute;
+  padding: 10px;
+  color: #b7b7b7;
+  min-width: 50px;
+  top: 5px;
+}
+
+/* Style the input fields */
+.inputfield {
+  width: 100%;
+  padding: 10px;
+  padding-left: 30px;
+  outline: none;
+  border: 1px solid #b7b7b7;
+  border-radius: 10px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3a3a3a;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  background: #5b3896;
+  border-radius: 10px;
+}
+.success {
+  background: #058d37;
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+}
+
+  
+  .err {
+    background: #e34e21;
+    color: #ffffff !important;
+    opacity: 0.6;
+    font-weight: bold;
+    border-radius: 5px;
+    width: auto;
+    margin: auto;
+    
+  }
+
+
+.btn:hover {
+  opacity: 0.9;
+  color: #ffffff;
+}
+.form {
+  height: auto;
+  padding: 20px 10px;
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.formcontainer {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

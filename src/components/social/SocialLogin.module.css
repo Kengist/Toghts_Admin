@@ -1,0 +1,30 @@
+.line {
+  height: 2px;
+  width: 100%;
+  color: rgb(16, 16, 15);
+}
+
+.or {
+  height: 2px;
+  color: rgb(16, 16, 16);
+  margin: 0px 7px;
+}
+
+.socialcontainer {
+  height: 40px;
+  width: 40px;
+  background: #000;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+@media (max-width:500px){
+  .socialcontainer {
+      height: 40px;
+      width: 40px;
+      background: #000;
+      border-radius: 50%;
+      text-align: center;
+  
+    }
+}
